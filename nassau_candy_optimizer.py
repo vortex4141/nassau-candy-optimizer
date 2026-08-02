@@ -523,7 +523,7 @@ def generate_all_recommendations(_df, _trained, best, _scaler, _le_dict, feat_co
 # ══════════════════════════════════════════════════════════════════════════════
 # LOAD DATA
 # ══════════════════════════════════════════════════════════════════════════════
-DATA_PATH = nassau dataset.xlsx
+DATA_PATH = "nassau dataset.xlsx"
 
 try:
     raw_df = load_data(DATA_PATH)
